@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Your Institution</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+	.back-button {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #1a2b6c;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+    .back-button:hover {
+      background-color: #e67e22;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: center;
+    }
+    .about-img {
+      flex: 1 1 400px;
+    }
+    .about-img img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .about-text {
+      flex: 1 1 500px;
+    }
+    .about-text h1 {
+      color: #1a2b6c;
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+    .about-text p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+    }
+    .about-text .highlight {
+      color: #e67e22;
+      font-weight: bold;
+    }
+    .about-text .btn-contact {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #1a2b6c;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .about-text .btn-contact:hover {
+      background: #e67e22;
+    }
+    @media(max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px 10px;
+      }
+      .about-img, .about-text {
+        flex: 1 1 100%;
+      }
+      .about-text h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+ <a href="javascript:history.back()" class="back-button">&#8592; Back</a>
+  <section class="container">
+    <div class="about-text">
+      <h1>Vision</h1>
+      <p>
+      To be a trusted leader in technical education to produce world class sustainable technocrats who excel in research, innovation and entrepreneurship.
+      </p>
+      <h1>Mission</h1>
+      <p>
+       &bull; To offer diploma and skill development programmes to develop world class technocrats with strong ethical values and make them emerge as innovators, leaders and entrepreneurs.
+      </p>
+      <p>
+       &bull; To provide incomparable learning opportunities to the students through best innovative educational practices with the state-of-the-art-infrastructure and facilitate online learning environment to cater the changing technological advancements.
+      </p>
+      <p>
+       &bull; To encourage faculty and staff to update their knowledge and skills through continuous learning.
+      </p>
+	   <p>
+      </p>
+       &bull; To strive for partnership with other academic institutions across the globe to strengthen the education environment.
+	   <p>
+       &bull; To collaborate with leading industries in promoting research and innovation by establishing strong industry institute interaction.
+      </p>
+	  <p>
+       &bull; To offer continuing education courses through online and offline mode benefitting the community and focus on sustainable technologies for the environment.
+      </p>
+      <h1>Quality Policy</h1>
+      <p>
+       Thiagarajar Polytechnic College endeavors ever to pursue world class standards of quality in enhancing the teaching learning process, developing students, upgrading faculty, expanding infrastructure, promoting research, strengthening collaboration with industries and institutions and contributing to the society through the process of self appraisal and continuous improvement.
+      </p>
+    </div>
+  </section>
+</body>
+</html>

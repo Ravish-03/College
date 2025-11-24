@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Your Institution</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+	.back-button {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #1a2b6c;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      z-index: 1000;
+    }
+    .back-button:hover {
+      background-color: #e67e22;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: center;
+    }
+    .about-img {
+      flex: 1 1 400px;
+    }
+    .about-img img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .about-text {
+      flex: 1 1 500px;
+    }
+    .about-text h1 {
+      color: #1a2b6c;
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+    .about-text p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+    }
+    .about-text .highlight {
+      color: #e67e22;
+      font-weight: bold;
+    }
+    .about-text .btn-contact {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #1a2b6c;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .about-text .btn-contact:hover {
+      background: #e67e22;
+    }
+    @media(max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 20px 10px;
+      }
+      .about-img, .about-text {
+        flex: 1 1 100%;
+      }
+      .about-text h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+ <a href="javascript:history.back()" class="back-button">&#8592; Back</a>
+  <section class="container">
+    <div class="about-img">
+      <img src="https://www.tpt.edu.in/assets/images/tpt-img.jpg" alt="Your Institution Building" />
+    </div>
+    <div class="about-text">
+      <h1>Thiagarajar Polytechnic College!</h1>
+      <p>
+       Thiagarajar Polytechnic College, fondly called as TPT is the root of the educational edifice, Sona Group of Institutions, Salem, Tamil Nadu. With a rich legacy and tradition spanning over 67 years, TPT stands tall and has become the foundation for the Sona Group.
+      </p>
+      <p>
+       TPT was granted academic autonomy in the year 1987 and five programmes offered by the institution have been accredited by the National Board of Accreditation (NBA) for the third term of six years consecutively. TPT offers 12 diploma programmes in various disciplines of engineering and technology and all the programmes are approved by the All India Council for Technical Education (AICTE), New Delhi and affiliated to the State Board of Technical Education and Training, Tamil Nadu.
+      </p>
+      <p>
+        The institution is located in a serene environment and equipped with the-state-of-the-art infrastructure and highly qualified and dedicated faculty. It offers a congenial learning atmosphere with the most modern teaching aids to make learning enjoyable.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
